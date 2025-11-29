@@ -1,0 +1,84 @@
+
+.full-container-header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+.logo, .menu {
+    height: 60px;
+    align-items: center;
+}
+.logo {
+    margin-left:100px;
+}
+.menu {
+    width: 80%;
+    font-size: 18px;
+    
+}
+.menu ul {
+    margin-top: 1px;
+    padding-left: 4px;
+}
+.menu li {
+    list-style: none;
+    display: inline-table ;
+    padding: 2px 2px 2px 2px 2px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 0 12px;
+    align-items: center;
+    margin-left: 40px;
+}
+.seach {
+    margin-left: 20px;
+}
+.menu-2 {
+    background-color: #F69631;
+    align-items: center;
+    padding: 11px;
+    align-items: center;
+}
+.menu-2 a {
+    color: white;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.search {
+    padding: 10px 40px;
+    margin-left: 234px;
+    border: solid 1px #ccc;
+}
+.icon {
+    font-size: 50px;
+    color: #ccc;
+}
+social-container {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background: #ffcc99;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d46a00;
+    font-size: 18px;
+}
+
+.icon:hover {
+    background: #ffb877;
+}
